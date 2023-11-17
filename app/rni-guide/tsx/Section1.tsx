@@ -52,7 +52,7 @@ export function Mapping() {
       <p>To create an index with a mapping, you need to specify the mapping when creating the index</p>
       <p>We will make a PUT request to
         <p className="p-5">{url}</p>
-        with the following body (in Postman, you can use the raw editor and select JSON):
+        with the following body; in Postman, you can use the raw editor and select JSON:
       </p>
       <pre className="p-2">
         {JSON.stringify(putMapping, null, 2)}
@@ -99,7 +99,7 @@ export function IndexOneDoc() {
     <div>
       <p>To create an index with a mapping, you need to specify the mapping when creating the index:</p>
       <p>We will make a POST request to
-        <p className="p-5">{url}</p> with the following body (in Postman, you can use the raw editor and select JSON):</p>
+        <p className="p-5">{url}</p> with the following body; in Postman, you can use the raw editor and select JSON:</p>
       <pre className="p-2">
         {JSON.stringify(doc, null, 2)}
       </pre>
@@ -162,7 +162,7 @@ export function BulkIndex() {
   return (
     <div>
       <p>To bulk index large numbers of docs, use the bulk enpoint</p>
-      <p>We will make a POST request to <p className="p-5">{url}</p> with the following body (in Postman, you can use the raw editor and select JSON):</p>
+      <p>We will make a POST request to <p className="p-5">{url}</p> with the following body; in Postman, you can use the raw editor and select JSON:</p>
       <p className="italic">Note that it must end with the new line, so be careful copy/pasting</p>
       <pre className="p-2">
         {bulkIndexString}

@@ -1,6 +1,7 @@
 import Collapse from "./components/Collapse";
 import * as Section1 from "./rni-guide/tsx/Section1";
 import * as Section2 from "./rni-guide/tsx/Section2";
+import * as Section3 from "./rni-guide/tsx/Section3";
 
 
 export default function Home() {
@@ -27,7 +28,11 @@ export default function Home() {
       <Collapse title="RNI query" defaultCollapsed={true}>
         <Section2.CompleteQuery />
       </Collapse>
-
+      <hr className="border-t border-gray-400 my-8" />
+      <h2 className="text-xl">Pairwise Analysis</h2>
+      <Collapse title="Pairwise Analysis" defaultCollapsed={true}>
+        <Section3.PairwiseAnalysis />
+      </Collapse>
     </div>
   )
 }
