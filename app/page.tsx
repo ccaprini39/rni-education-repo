@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className="m-5">
-      <h1 className="text-3xl">Collin{"'"}s RNI Guide</h1>
+      <h1 className="text-3xl">RNI Guide</h1>
       <hr className="border-t border-gray-400 my-8" />
       <h2 className="text-xl">Index Creation and Basic Indexing</h2>
       <Collapse title="Create an index with a mapping" defaultCollapsed={true}>
