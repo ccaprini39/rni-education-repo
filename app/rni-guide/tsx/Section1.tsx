@@ -30,7 +30,7 @@ export function Mapping() {
         <ul>
           <li className="list-item">For more info on mappings, see <a className=" text-blue-600" href="https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html">the docs</a></li>
           <li className="list-item">This creates an index called rni-test-index</li>
-          <li className="list-item">The mappings don't need to be defined at creation time, but if you try to index something without creating the mappings it will default to the non-RNI types</li>
+          <li className="list-item">The mappings do not need to be defined at creation time, but if you try to index something without creating the mappings it will default to the non-RNI types</li>
         </ul>
       </Collapse>
     )
