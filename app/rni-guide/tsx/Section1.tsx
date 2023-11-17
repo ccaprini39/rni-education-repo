@@ -1,8 +1,8 @@
 import Collapse from "@/app/components/Collapse"
 import Image from "next/image"
-import createIndexImage from "@/public/createNewIndex.PNG"
-import indexOneDocImage from "@/public/indexOneDoc.PNG"
-import bulkIndexImage from "@/public/bulkIndex.PNG"
+import createIndexImage from "@/public/createNewIndex.png"
+import indexOneDocImage from "@/public/indexOneDoc.png"
+import bulkIndexImage from "@/public/bulkIndex.png"
 
 export function Mapping() {
   const url = 'http://localhost:9200/rni-test-index'

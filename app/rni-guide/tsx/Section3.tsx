@@ -1,6 +1,6 @@
 import Collapse from "@/app/components/Collapse"
 import Image from "next/image"
-import pairwiseImage from "@/public/pairwise.PNG"
+import pairwiseImage from "@/public/pairwise.png"
 
 export function PairwiseAnalysis() {
   const url = "http://localhost:9200/rni_plugin/_pair_match?type=rni_name"

@@ -1,7 +1,7 @@
 import Collapse from "@/app/components/Collapse"
 import Image from "next/image"
-import firstPassOnlyQueryImage from "@/public/firstPassOnlyQuery.PNG"
-import completeQueryImage from "@/public/completeQuery.PNG"
+import firstPassOnlyQueryImage from "@/public/firstPassOnlyQuery.png"
+import completeQueryImage from "@/public/completeQuery.png"
 
 export function FirstPassOnlyQuery() {
 
